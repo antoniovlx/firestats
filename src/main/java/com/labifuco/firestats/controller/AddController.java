@@ -38,10 +38,11 @@ public class AddController {
 		model.setViewName("display");
 		model.addObject("result", name + " " + lastname);
 		
+		
 		return model;
 		
-		// experimento1
-		// camibos 2
+		// prueba
+		
 		
 	}
 };
