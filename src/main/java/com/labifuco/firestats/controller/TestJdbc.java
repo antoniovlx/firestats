@@ -14,7 +14,7 @@ public class TestJdbc {
 
 		String jdbcURL = "jdbc:mysql://localhost:3306/firestats?useSSL=" + "false&serverTimezone=UTC";
 
-		try { 
+		try {
 
 			System.out.println("Connecting to database: " + jdbcURL);
 

@@ -36,11 +36,11 @@ public class AddController {
 	
 		ModelAndView model = new ModelAndView();
 		model.setViewName("display");
-		model.addObject("result", name + " " + lastname); 
+		model.addObject("result", name + " " + lastname);
 		
 		return model;
 		
-		// lalalallalala
+		// experimento1
 		
 	}
 };
