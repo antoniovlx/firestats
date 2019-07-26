@@ -22,7 +22,7 @@
 <body>
 	<h3>Form</h3>
 
-	<form action="salute" method="get">
+	<form action="bye" method="get">
 		Name: <input type="text" name="name" /> LastName: <input type="text"
 			name="lastname" /> <input type="submit" />
 	</form>

@@ -23,9 +23,24 @@ public class AddController {
 		String lastname = request.getParameter("lastname");
 	
 		ModelAndView model = new ModelAndView();
+		model.setViewName("main");
+		model.addObject("result", name + " " + lastname);
+		
+		return model;
+	}
+	
+	@RequestMapping("/bye")
+	public ModelAndView bye(HttpServletRequest request, HttpServletResponse response) {
+		String name = request.getParameter("name");
+		String lastname = request.getParameter("lastname");
+	
+		ModelAndView model = new ModelAndView();
 		model.setViewName("display");
 		model.addObject("result", name + " " + lastname);
 		
 		return model;
+		
+		// experimento1
+		
 	}
 };
